@@ -1,9 +1,10 @@
 .search-bar{
-  margin: 20px;
-  text-align: center;
+  margin: 20px 20px 20px 20px;
+  text-align: left;
 }
 .search-bar input{
-  width: 75%;
+  width: 70%;
+  margin: 10px 20px 20px 0px;
 }
 .video-item img{
   max-width: 64px;

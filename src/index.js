@@ -5,6 +5,7 @@ import SearchBar from './components/search_bar';
 import VideoList from './components/video_list';
 import YTSearch from 'youtube-api-search';
 import VideoDetail from './components/video_detail';
+import './style/style.css';
 
 const API_KEY = 'AIzaSyAbFC5XKeVaB1VINkVColWLExbHGuXR4TY';
 
@@ -16,7 +17,7 @@ class App extends Component {
       videos :[],
       selectedVideo : null
     };
-    this.videoSearch('Linkin Park');
+    this.videoSearch('Latest Bollywood Trailers');
   }
   videoSearch(term){
     YTSearch({key:API_KEY, term: term},(videos) => {
